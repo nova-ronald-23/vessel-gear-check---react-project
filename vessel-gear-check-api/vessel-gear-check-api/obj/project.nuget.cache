@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AaFJ2VFukvWx65N0qYcYrcWiuvvcoGtWXz4ZJUCgkqeDshptD7iP7gliEB0LCoXdF/LYOFPEdOAoKZfxZp91XQ==",
+  "success": true,
+  "projectFilePath": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\SNR NOVA\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
