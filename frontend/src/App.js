@@ -8,7 +8,18 @@ function App() {
       <div className="green">
         <div className="green-inner">
           <div className="box">
-            <div className="box1">Box 
+            <div className="box1">
+              <div className='btn'>
+              <button>Captain</button>
+              <button>Bridge</button>
+              <button>Engine</button>
+              <button>Logistics</button>
+              <button>Safety</button>
+              <button>Hospitality</button>
+              </div>
+              <button>Select</button>
+            </div>
+            <div className="boxt">Box  content
             </div>
           </div>
           
