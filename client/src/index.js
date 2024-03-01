@@ -7,7 +7,30 @@ import CreateChecklistPage from "./Components/Checklist/CreateChecklistPage";
 import ChecklistMainContent from "./Components/Checklist/Checklist_Main";
 import ModifyDefaultChecklist from "./Components/Checklist/ModifyDefaultChecklist";
 
+/** ***************************Following Imports for Default Checklist Component by Bagio************************** */
+import {
+  DefaultDeckComponent,
+  DefaultEngineComponent,
+  DefaultSafetyComponent,
+  DefaultHospitalityComponent,
+  DefaultLogisticsComponent,
+} from "./Components/Checklist/DefaultDeptChecklistOptions";
+
+import {
+  DefaultDocumentationComponent,
+  DefaultExternalHullPreBoardingComponent,
+  DefaultISMCodeComponent,
+  DefaultRadioComponent,
+  DefaultWheelHouseComponent,
+  DefaultCommonCheckComponent,
+  DefaultDeckHoursofRestComponent,
+} from "./Components/Checklist/DefaultDeptChecklistOptions";
+import { DefaultEngineRoom } from "./Components/Checklist/DefaultDeptChecklistOptions";
+import { DefaultContainerLogistics } from "./Components/Checklist/DefaultDeptChecklistOptions";
+import { DefaultAccomodationHospitality } from "./Components/Checklist/DefaultDeptChecklistOptions";
 import { SubmissionComponent } from "./Components/Checklist/DeptChecklistOptions";
+
+/*******************************************Above components for Default checklist********************************************************************** */
 
 import {
   DocumentationComponent,
@@ -18,6 +41,17 @@ import {
   CommonCheckComponent,
   DeckHoursofRestComponent,
 } from "./Components/Checklist/DeptChecklistOptions";
+
+import {
+  DefaultShoreSafety,
+  DefaultDamageControlSafety,
+  DefaultFireSafety,
+  DefaultSurvivalSafety,
+  DefaultIGSSafety,
+  DefaultCrudeOilSafety,
+  DefaultLiquiedChemicalsSafety,
+  DefaultLiquefiedGasSafety,
+} from "./Components/Checklist/DefaultDeptChecklistOptions";
 
 import {
   DeckComponent,
@@ -62,20 +96,19 @@ root.render(
           {
             <Route
               path="/default-checklist"
-              element={<DefaultChecklistPage />}
+              element={<DefaultChecklistPage />} /**added DefaultChecklist */
             />
             /*<Route path="/properties" element={<PropertiesPage />} /> */
           }
-
-          <Route path="/preDeparture" element={<PreDeparture />} />
-          <Route path="/preArrival" element={<PreArrival/>} />
-
+          <Route path="/preDeparture" element={<PreDeparture />} />{" "}
+          {/*added PreDeparture */}
+          <Route path="/preArrival" element={<PreArrival />} />{" "}
+          {/*added PreArrival */}
           <Route path="/deck" element={<DeckComponent />} />
           <Route path="/engine" element={<EngineComponent />} />
           <Route path="/safety" element={<SafetyComponent />} />
           <Route path="/logistics" element={<LogisticsComponent />} />
           <Route path="/hospitality" element={<HospitalityComponent />} />
-
           <Route path="/documentation" element={<DocumentationComponent />} />
           <Route
             path="/external-hull-pre-boarding"
@@ -89,9 +122,7 @@ root.render(
             path="/deck-hours-rest-fatigue"
             element={<DeckHoursofRestComponent />}
           />
-
           <Route path="/engineroomcheck" element={<EngineRoom />} />
-
           <Route path="/shore" element={<ShoreSafety />} />
           <Route path="/damagecontrol" element={<DamageControlSafety />} />
           <Route path="/fireprotect" element={<FireSafety />} />
@@ -103,14 +134,81 @@ root.render(
             element={<LiquiedChemicalsSafety />}
           />
           <Route path="/liquefied-gases" element={<LiquefiedGasSafety />} />
-
           <Route path="/containerlogistics" element={<ContainerLogistics />} />
-
           <Route
             path="/accomodationhospitality"
             element={<AccomodationHospitality />}
           />
-
+          <Route path="/submission" element={<SubmissionComponent />} />
+          {/** ****************************** Bagio DefaultChecklist Components **********************************/}
+          <Route path="/default-deck" element={<DefaultDeckComponent />} />
+          <Route path="/default-engine" element={<DefaultEngineComponent />} />
+          <Route path="/default-safety" element={<DefaultSafetyComponent />} />
+          <Route
+            path="/default-logistics"
+            element={<DefaultLogisticsComponent />}
+          />
+          <Route
+            path="/default-hospitality"
+            element={<DefaultHospitalityComponent />}
+          />
+          <Route
+            path="/default-documentation"
+            element={<DefaultDocumentationComponent />}
+          />
+          <Route
+            path="/default-external-hull-pre-boarding"
+            element={<DefaultExternalHullPreBoardingComponent />}
+          />
+          <Route
+            path="/default-ism-code"
+            element={<DefaultISMCodeComponent />}
+          />
+          <Route path="/default-radio" element={<DefaultRadioComponent />} />
+          <Route
+            path="/default-wheel-house"
+            element={<DefaultWheelHouseComponent />}
+          />
+          <Route
+            path="/default-common-check"
+            element={<DefaultCommonCheckComponent />}
+          />
+          <Route
+            path="/default-deck-hours-rest-fatigue"
+            element={<DefaultDeckHoursofRestComponent />}
+          />
+          <Route
+            path="/default-engineroomcheck"
+            element={<DefaultEngineRoom />}
+          />
+          <Route path="/default-shore" element={<DefaultShoreSafety />} />
+          <Route
+            path="/default-damagecontrol"
+            element={<DefaultDamageControlSafety />}
+          />
+          <Route path="/default-fireprotect" element={<DefaultFireSafety />} />
+          <Route path="/default-survival" element={<DefaultSurvivalSafety />} />
+          <Route path="/default-igs" element={<DefaultIGSSafety />} />
+          <Route
+            path="/default-crude-oil"
+            element={<DefaultCrudeOilSafety />}
+          />
+          <Route
+            path="/default-liquid-chemicals"
+            element={<DefaultLiquiedChemicalsSafety />}
+          />
+          <Route
+            path="/default-liquefied-gases"
+            element={<DefaultLiquefiedGasSafety />}
+          />
+          <Route
+            path="/default-containerlogistics"
+            element={<DefaultContainerLogistics />}
+          />
+          <Route
+            path="/default-accomodationhospitality"
+            element={<DefaultAccomodationHospitality />}
+          />
           <Route path="/submission" element={<SubmissionComponent />} />
         </Routes>
       </BrowserRouter>

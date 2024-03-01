@@ -18,7 +18,7 @@ const PreArrival = () => {
 
   const handleListItemClick = (event, index) => {
     setSelectedIndex(index);
-    const paths = ['/deck', '/engine', '/safety', '/logistics', '/hospitality'];
+    const paths = ['/default-deck', '/default-engine', '/default-safety', '/default-logistics', '/default-hospitality'];
     navigate(paths[index]);
   };
 
