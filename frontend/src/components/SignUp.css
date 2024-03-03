@@ -1,0 +1,95 @@
+/* SignUp.css */
+
+.sign-up-container {
+  width: 750px; /* Increase the width for a two-column layout */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.sign-up-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row; /* Set the flex direction to row for a two-column layout */
+  justify-content: space-between, 20px ; /* Add space between the two text boxes */
+  align-items: center; /* Center align items vertically */
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 250px; /* Adjust the width for the two text boxes */
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-inline: 20px;
+  
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px #645ef7;
+}
+
+.sign-up-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  background-color: #645ef7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-up-button:hover {
+  background-color: #4d47f9;
+}
+
+.already-have-account {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}
+
+.already-have-account a {
+  color: #645ef7;;
+  text-decoration: none;
+}
+
+.already-have-account a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: #f00;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
