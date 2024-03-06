@@ -1,32 +1,26 @@
 .container {
     display: flex;
-    height: 100vh; /* Make the container full screen */
+    height: 100%; /* Make the container full screen */
   }
   
-  .side-blue {
-    flex: 1; /* Take up half of the screen */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
-    
-  }
+ 
   
   .main-side {
     flex: 4; /* Take up half of the screen */
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
     display: flex;
+    padding-top : 60px ;
+    margin-bottom: 0%;
+    padding-bottom: 20px;
+
      /* Center items vertically */
   }
   
-  .green-inner {
-    display: flex;
-    flex-direction: column; 
-    padding-top: 150px;
-    padding-left: 0px;/* Stack boxes vertically */
-  }
   .white-box {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    width: 1000px;
-    height: 500px;
+    width: 800px;
+    height: 400px;
     background-color: white;
     border: 1px solid black;
     display: flex;
@@ -38,10 +32,12 @@
   .inner-box1 {
     border-radius: 25px;
     width: 500px;
-    height: 100px;
+    height: 80px;
     background-color: #9999;
     border: 1px solid #9999;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 20px;
     padding-top: 40px;
     
   
