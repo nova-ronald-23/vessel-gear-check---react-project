@@ -1,31 +1,12 @@
 import React from 'react';
 import './App.css'; // Assuming you have a CSS file for styling
+import { Set } from './components/Set'; 
+import RolesScreen from './components/Roles';
 
 function App() {
   return (
-    <div className="container">
-      <div className="blue">Blue</div>
-      <div className="green">
-        <div className="green-inner">
-          <div className="box">
-            <div className="box1">
-              <div className='btn'>
-              <button>Captain</button>
-              <button>Bridge</button>
-              <button>Engine</button>
-              <button>Logistics</button>
-              <button>Safety</button>
-              <button>Hospitality</button>
-              </div>
-              <button>Select</button>
-            </div>
-            <div className="boxt">Box  content
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>
+    <div>
+    <RolesScreen/>
     </div>
   );
 }

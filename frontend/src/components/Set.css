@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    height: 100vh; /* Make the container full screen */
+  }
+  
+  .side-blue {
+    flex: 1; /* Take up half of the screen */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
+    
+  }
+  
+  .main-side {
+    flex: 4; /* Take up half of the screen */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
+    display: flex;
+     /* Center items vertically */
+  }
+  
+  .green-inner {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 150px;
+    padding-left: 0px;/* Stack boxes vertically */
+  }
+  .white-box {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 1000px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15%; /* Add this to distribute space between children */
+  }
+  
+  .inner-box1 {
+    border-radius: 25px;
+    width: 500px;
+    height: 100px;
+    background-color: #9999;
+    border: 1px solid #9999;
+    text-align: center;
+    padding-top: 40px;
+    
+  
+  }
+  
+  
+  .personalization{
+    width:250px;
+    color: white;
+    height: 60px;
+    border-radius: 25px;
+    font-size:25px;
+    font-weight:30px;
+    background-color: rgb(142, 117, 223);
+    border-color: rgb(142, 117, 223);
+  }

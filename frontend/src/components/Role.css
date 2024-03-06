@@ -1,0 +1,144 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%; 
+  width: 100%;
+  padding-top: 10px;/* Adjust as needed */
+ 
+}
+
+
+
+
+
+
+.option {
+  display: flex; /* Change display to flex */
+  align-items: center; /* Align items vertically */
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: transparent; /* Set background color to transparent by default */
+  border: none; /* Remove any border */
+  outline: none; /* Remove outline */
+  font-size: 16px; /* Adjust font size */
+  color: white; /* Set text color */
+  transition: background-color 0.3s ease;
+  width: 200px; 
+  text-align: center;
+  font-size:medium;
+  font-weight: bold;
+  align-items: center;
+  
+
+}
+
+
+
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Takes remaining space */
+ /* Example of left padding */
+  justify-content: space-around; /* Add space around the box */
+  background: linear-gradient(90.37deg, #5e55e4 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+  padding-top: 40px;
+  padding-bottom: 8px;
+  
+  
+  
+
+}
+
+
+
+.white-box {
+  display: flex;
+  background-color: #ffffff; /* Background color inside the box */
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding-top: 30px; /* Example of top padding */
+  padding-right:40px; /* Example of right padding */
+  padding-bottom: 5px; /* Example of bottom padding */
+  padding-left: 20px; /* Example of left padding *//* Padding inside the card */
+  width: 700px;
+  height: 490px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+ 
+ 
+}
+.box1 {
+  border-radius: 25px;
+ 
+  width: 300px;
+  height: 450px;
+  background-color: #cecece;
+  border: 1px solid #9999;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 50px;
+ 
+}
+
+.box2 {
+  
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 500px;
+  height: 450px;
+  background-color: #9999;
+  border: 1px solid #9999;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 20px;
+
+}
+
+.options-btns {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  margin-top: 10px; /* Add space between header and text fields */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons */
+  margin-top: 20px;
+}
+
+.option1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  background: rgb(86, 69, 344);
+}
+
+.selectedButton {
+  background-color: #48f053;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
