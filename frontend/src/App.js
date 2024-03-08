@@ -8,7 +8,6 @@ function App() {
     <div>
     <RolesScreen/>
     <Set/>
-    
     </div>
   );
 }
