@@ -6,7 +6,9 @@ import RolesScreen from './components/Roles';
 function App() {
   return (
     <div>
+    <RolesScreen/>
     <Set/>
+    
     </div>
   );
 }

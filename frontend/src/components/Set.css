@@ -7,7 +7,7 @@
   
   .main-side {
     flex: 4; /* Take up half of the screen */
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
+    background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
     display: flex;
     padding-top : 60px ;
     margin-bottom: 0%;

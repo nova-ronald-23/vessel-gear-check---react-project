@@ -43,7 +43,7 @@
   flex-grow: 1; /* Takes remaining space */
  /* Example of left padding */
   justify-content: space-around; /* Add space around the box */
-  background: linear-gradient(90.37deg, #5e55e4 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+  background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
   padding-top: 40px;
   padding-bottom: 8px;
   
