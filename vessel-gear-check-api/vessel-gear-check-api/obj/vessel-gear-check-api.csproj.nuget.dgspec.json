@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj": {}
+    "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj": {}
   },
   "projects": {
-    "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj": {
+    "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj",
+        "projectUniqueName": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj",
         "projectName": "vessel-gear-check-api",
-        "projectPath": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj",
+        "projectPath": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\vessel-gear-check-api.csproj",
         "packagesPath": "C:\\Users\\SNR NOVA\\.nuget\\packages\\",
-        "outputPath": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\obj\\",
+        "outputPath": "E:\\study mat\\pg\\intership\\New folder\\vessel-gear-check---react-project\\vessel-gear-check---react-project\\vessel-gear-check-api\\vessel-gear-check-api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SNR NOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,43 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+<<<<<<< HEAD
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+=======
+>>>>>>> 60eb95afa1f7ea91d1734675f410801cf72efab5
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+<<<<<<< HEAD
+=======
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+>>>>>>> 60eb95afa1f7ea91d1734675f410801cf72efab5
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+<<<<<<< HEAD
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+=======
+>>>>>>> 60eb95afa1f7ea91d1734675f410801cf72efab5
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
