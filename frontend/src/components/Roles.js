@@ -70,7 +70,7 @@ const RoleScreen = () => {
               </button>
               {/* Select button */}
               <button 
-                className={isButtonSelected ? 'selectedButton' : 'option1'}
+                className={isButtonSelected ? 'selectedButton' : 'option'}
                 onClick={handleSelectPress}
               >
                 {isButtonSelected ? 'Selected' : 'Select'}

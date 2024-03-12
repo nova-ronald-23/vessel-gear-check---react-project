@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%; 
+    width: 100%;
+    padding-top: 10px;/* Adjust as needed */
+   
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Takes remaining space */
+   /* Example of left padding */
+    justify-content: space-around; /* Add space around the box */
+    background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
+    padding-top: 40px;
+    padding-bottom: 8px;
+    
+  }
+  .white-box {
+    display: flex;
+    background-color: #ffffff; /* Background color inside the box */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding-top: 30px; /* Example of top padding */
+    padding-right:40px; /* Example of right padding */
+    padding-bottom: 5px; /* Example of bottom padding */
+    padding-left: 20px; /* Example of left padding *//* Padding inside the card */
+    width: 700px;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+   
+   
+  }

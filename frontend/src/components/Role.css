@@ -47,9 +47,6 @@
   padding-top: 40px;
   padding-bottom: 8px;
   
-  
-  
-
 }
 
 
@@ -95,22 +92,23 @@
   border: 1px solid #9999;
   align-items: center;
   
-  padding-left:110px;
+  padding-left:50px;
   padding-top: 10px;
   margin-left: 20px;
 
 }
 .inside-box{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   border-radius: 25px;
-  padding: 10px ;
+  padding: 15px;
   margin: 20px;
-  width: 150px;
+  width: 250px;
   height: 150px;
   background-color: #9999;
   border: 1px solid #9999;
   text-align: center;
-  padding-top: 10px;
-  margin-left: 20px;
 }
 
 .options-btns {
@@ -141,6 +139,22 @@
   height: 50px;
   background: rgb(86, 69, 344);
 }
+.option{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  background: #FF5733;
+}
 
 .selectedButton {
   background-color: #48f053;
@@ -161,12 +175,14 @@
   border: none;
   cursor: pointer;
   padding: 5px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 80px ; /* Center horizontally */
   border-radius: 5px;
   color: white;
   font-size: 13px;
   font-weight: bold;
   width: 150px;
   height: 30px;
-  background:  #283747;
+  background: #283747;
 }
