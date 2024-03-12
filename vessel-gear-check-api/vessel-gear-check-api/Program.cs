@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using System.Globalization; 
 using vessel_gear_check_api.Data;
+using vessel_gear_check_api.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -11,5 +11,7 @@ namespace vessel_gear_check_api.Data
             
         }
         public DbSet<Checklist> Checklists { get; set; }
+
+        public DbSet<User_info> User_infos {  get; set; }
     }
 }

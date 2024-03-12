@@ -26,6 +26,19 @@ namespace vessel_gear_check_api.Controllers
             }
             return BadRequest("Invalid data provided");
         }
+        [HttpPost]
+[Route("api/AddChecklistItems")]
+public IActionResult AddChecklistItems([FromBody] List<Checklist> checklistItems)
+{
+    if (ModelState.IsValid)
+    {
+        _context.Checklists.AddRange(checklistItems);
+        _context.SaveChanges();
+        return Ok("Checklist items added successfully");
+    }
+    return BadRequest("Invalid data provided");
+}
+
         [HttpGet]
         public IActionResult GetChecklistItems()
         {
@@ -35,5 +48,32 @@ namespace vessel_gear_check_api.Controllers
 
             return Ok(checklistItems);
         }
+
+        [HttpPost]
+        [Route("api/UserInfo")]
+        public IActionResult AddUserInfo([FromBody] User_info userInfo)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.User_infos.Add(userInfo);
+                _context.SaveChanges();
+                return Ok("User information added successfully");
+            }
+            return BadRequest("Invalid data provided");
+        }
+
+        [HttpPost]
+        [Route("api/AuthenticateUser")]
+        public IActionResult AuthenticateUser([FromBody] User_info userCredentials)
+        {
+            var user = _context.User_infos.FirstOrDefault(u => u.User_Name == userCredentials.User_Name && u.Password == userCredentials.Password);
+            if (user != null)
+            {
+                return Ok("User authenticated successfully");
+            }
+            return BadRequest("Invalid credentials");
+        }
+
+
     }
 }
