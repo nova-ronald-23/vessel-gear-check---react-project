@@ -31,8 +31,74 @@
     width: 700px;
     height: 490px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 300px;
-   
-   
+    align-items: center;
+    
+     
   }
+::placeholder{
+  text-align: center;
+  font-size: 17px;
+  align-items: center;
+}  
+
+.text-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center align items horizontally */
+  margin-top: 10px; /* Add space between header and text fields */
+  align-items: center;
+  border-color: grey;
+  border: solid;
+}
+
+input[type="text"] {
+  margin-top: 15px;
+  margin-bottom: 18px;
+  border-radius: 15px;
+  width: 50%; /* Adjust width of the text boxes */
+  padding: 8px;
+  font-size: 17px;
+  box-sizing: content-box;
+}
+.button-container {
+  display: flex;
+  justify-content: center; /* Center buttons */
+  margin-top: 20px;
+}
+
+.button1 {
+  margin: 0px 90px; /* Adjust margin between buttons */
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #524E4E;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button2 {
+  margin: 0px 90px; /* Adjust margin between buttons */
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #D5603B;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.captain-logo {
+  background-image: url('/src/components/images/cap.png'); /* Specify the path to your image */
+  background-size: contain; /* Adjust the size of the background image */
+  background-repeat: no-repeat; /* Ensure the image is not repeated */
+  width: 50px; /* Adjust the width of the logo */
+  height: 50px; /* Adjust the height of the logo */
+}

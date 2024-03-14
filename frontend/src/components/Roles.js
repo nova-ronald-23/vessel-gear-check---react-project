@@ -78,7 +78,8 @@ const RoleScreen = () => {
             </div>
             
           </div>
-          <div className='box2'><button className='track'> Task Tracking</button>
+          <div className='box2'>
+          <div className='track1'><button className='track'> Task Tracking</button></div>
           
           <div className='inside-box'></div>
           <div className='inside-box'></div>
