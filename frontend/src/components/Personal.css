@@ -34,6 +34,7 @@
     flex-direction: column;
     margin-left: 300px;
     align-items: center;
+    justify-content: center;
     
      
   }
@@ -43,16 +44,6 @@
   align-items: center;
 }  
 
-.text-fields {
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Center align items horizontally */
-  margin-top: 10px; /* Add space between header and text fields */
-  align-items: center;
-  border-color: grey;
-  border: solid;
-}
-
 input[type="text"] {
   margin-top: 15px;
   margin-bottom: 18px;
@@ -61,8 +52,7 @@ input[type="text"] {
   padding: 8px;
   font-size: 17px;
   box-sizing: content-box;
-}
-.button-container {
+}.button-container {
   display: flex;
   justify-content: center; /* Center buttons */
   margin-top: 20px;
@@ -102,3 +92,56 @@ button:hover {
   width: 50px; /* Adjust the width of the logo */
   height: 50px; /* Adjust the height of the logo */
 }
+.dropdown {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+  position:relative;  
+  
+}
+
+/* Style for the dropdown options */
+.dropdown select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #36363b;
+  
+  
+}
+
+/* Style for the dropdown arrow */
+.dropdown::after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style for dropdown when it's open */
+.dropdown.open select {
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+/* Style for dropdown options when it's open */
+
+
+/* Style for dropdown options */
+.dropdown select option {
+  padding: 15px;
+  
+  font-size: 18px;
+  color: black;
+}
+
