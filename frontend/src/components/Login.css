@@ -8,7 +8,10 @@ body {
   justify-content: center;
   align-items: center; /* Corrected the property name */
   height: 100vh;
-  background: linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%,#2C1FFD 100%);
+  background-image: url('images/Login.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .image-contauiner{
   width: 600px;
