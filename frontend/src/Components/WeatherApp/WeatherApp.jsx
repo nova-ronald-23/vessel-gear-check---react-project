@@ -13,9 +13,10 @@ const WeatherApp = () => {
     const [temperature, setTemperature] = useState("");
     const [windSpeed, setWindSpeed] = useState("");
     const [country, setCountry] = useState("");
+    const [humidity, setHumidity] = useState(""); // New state variable for humidity
     const [dateInfo, setDateInfo] = useState("");
 
-    const fetchWeatherData = async (latitude, longitude, setLoc, setTemp, setWind, setCountry) => {
+    const fetchWeatherData = async (latitude, longitude, setLoc, setTemp, setWind, setCountry, setHumidity) => {
         let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=Metric&appid=${api_key}`;
 
         try {
@@ -23,6 +24,7 @@ const WeatherApp = () => {
             let data = await response.json();
             setTemp(`${data.main.temp}°C`);
             setWind(`${data.wind.speed} km/hr`);
+            setHumidity(`${data.main.humidity}%`); // Set humidity here
             setLoc(data.name);
         } catch (error) {
             console.error('Error fetching weather data:', error);
@@ -50,7 +52,7 @@ const WeatherApp = () => {
         navigator.geolocation.getCurrentPosition(
             (position) => {
                 const { latitude, longitude } = position.coords;
-                fetchWeatherData(latitude, longitude, setLocation, setTemperature, setWindSpeed, setCountry);
+                fetchWeatherData(latitude, longitude, setLocation, setTemperature, setWindSpeed, setCountry, setHumidity);
                 getCurrentDateInfo();
             },
             (error) => {
@@ -78,7 +80,7 @@ const WeatherApp = () => {
                         <div className="element">
                             <img src={humidity_icon} alt="" className="icon" />
                             <div className="data">
-                                <div className="humidity-percent">64%</div>
+                                <div className="humidity-percent">{humidity}</div>
                                 <div className="text">Humidity</div>
                             </div>
                         </div>
