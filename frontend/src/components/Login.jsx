@@ -63,14 +63,9 @@ class LoginPage extends React.Component {
             className="login-input"
           />
           <br />
-          <ReCAPTCHA
-            sitekey="6Lccz4EpAAAAAIQ-76b7IFK9NRW6ZWpN1joylDp0"
-            onChange={(value) => this.setState({ recaptcha: value })}
-            name="recaptcha"
-            className="login-recaptcha"
-          />
+          
           <br />
-          <input type="submit" value="Login" className="login-button" />
+          <input type="submit" value="Login" className="log-button" />
           <p className="login-link">Don't have an account? <a href="/signup">Sign up</a></p>
           <p className="login-link"><a href="/forgotpassword">Forgot password?</a></p>
         </form>
