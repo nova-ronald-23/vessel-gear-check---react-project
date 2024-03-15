@@ -8,6 +8,7 @@ body {
 .container {
     display: flex;
     margin-left: -120px;
+    justify-content: center;
 }
 
 .ellipse1,
@@ -19,6 +20,7 @@ body {
     filter: blur(2px);
     /* Adjust the blur radius as needed */
 }
+
 
 .ellipse1 {
     position: absolute;
@@ -38,6 +40,7 @@ body {
     height: 400px;
     background-color: #D64B38;
     border-radius: 50%;
+    
 }
 
 .container1 {
@@ -66,6 +69,7 @@ body {
     display: inline-block;
     flex-direction: column;
     align-items: center;
+    
 }
 
 
@@ -81,6 +85,7 @@ body {
     display: inline-block;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .container4 {
@@ -99,10 +104,20 @@ body {
 {
     text-decoration: none;
     color: white;
+    text-align:justify;
+    width: 700px;
+    height: 55px;
+    margin-top: -17px;
+    margin-left: -280px;
+    border-radius: 25px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    padding-top: 15px;
 }
 
 .container4:hover {
-    background-color: #6C63FF;
+    background-color: #2f29a3;
 }
 
 .weather-image1 {
