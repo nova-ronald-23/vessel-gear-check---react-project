@@ -25,10 +25,10 @@ const sidebar = () => {
       </div>
 
       <div className="sidebar-options">
-          <button className="option">
-            <img src={require("../components/images/opn1.png")} alt="Option 1" /> 
+          <Link to="/roles" className="option"> 
+            <img src={require("../components/images/opn1.png")} alt="Option 2" /> 
             <span>Roles</span>
-          </button>
+          </Link>
           <Link to="/vesselprofile" className="option"> 
             <img src={require("../components/images/opn2.png")} alt="Option 2" /> 
             <span>Vessel Profiile</span>

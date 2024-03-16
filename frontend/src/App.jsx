@@ -10,6 +10,7 @@ import WeatherApp from './components/WeatherApp/WeatherApp';
 import DashboardPage from './components/dashboard';
 import VesselProfile from './components/VesselProfile';
 import VesselProfileNext from './components/VesselProfileNext';
+import Roles from'./components/Roles';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/vesselprofile" element={<VesselProfile />} />
         <Route path="/VesselProfileNext" element={<VesselProfileNext />} />
+        <Route path="/roles" element={<Roles />}/>
         {/* Other routes */}
       </Routes>
     </Router>
