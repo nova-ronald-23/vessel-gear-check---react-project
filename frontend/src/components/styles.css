@@ -37,6 +37,17 @@ body{
   font-size: medium;
   font-weight: bold;
 }
+.box1 {
+  border-radius: 25px;
+  width: 300px;
+  height: 450px;
+  background-color: #cecece;
+  border: 1px solid #9999;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 50px;
+ padding-bottom: 4px;
+}
 
 .captain-logo {
   background-image: url('/src/components/images/cap.png');

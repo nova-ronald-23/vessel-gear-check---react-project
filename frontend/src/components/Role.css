@@ -55,12 +55,10 @@
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
-  padding-top: 30px; 
-  padding-right:40px; 
-  padding-bottom: 5px;
-  padding-left: 20px; 
-  width: 700px;
-  height: 490px;
+  padding-top: 25px; 
+  padding-right:50px; 
+  padding-bottom: 25px;
+  padding-left: 30px; 
   display: flex;
   flex-direction: row;
  
@@ -68,7 +66,6 @@
 }
 .rbox1 {
   border-radius: 25px;
- 
   width: 300px;
   height: 450px;
   background-color: #cecece;
@@ -136,7 +133,7 @@
   background: rgb(86, 69, 344);
 }
 .roption{
-  background-color: transparent;
+  background: transparent;
   border: none;
   cursor: pointer;
   padding: 10px;
@@ -149,7 +146,9 @@
   font-weight: bold;
   width: 200px;
   height: 50px;
-  background: #FF5733;
+  background-color: #FF5733;
+  margin-left: 50px;
+  
 }
 
 .rselectedButton {

@@ -9,6 +9,9 @@ const DashboardPage = () => {
       <Sidebar /> {/* Include the Sidebar component */}
       <div className="main-content">
         <div className="box">
+            <div className='box1'>
+
+            </div>
           
           
         </div>
