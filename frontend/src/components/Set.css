@@ -1,0 +1,67 @@
+.scontainer {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.smain-side {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  width: 1022px;
+  justify-content: space-around;
+  padding-top: 10px; 
+  padding-right:35px; 
+  padding-bottom: 10px; 
+  padding-left: 0px; 
+  background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+  
+}
+
+.swhite-box {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-right: 50px;
+  background: #FFFFFF;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-decoration-color: #524E4E;
+  font-size: medium;
+  font-weight: bold;
+  height: 100%;
+}
+
+.sinner-box1 {
+  border-radius: 25px;
+  width: 500px;
+  height: 80px;
+  background-color: #9999;
+  border: 1px solid #9999;
+  text-align: left;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  align-items: center;
+  
+
+}
+
+
+.spersonalization{
+  width:250px;
+  color: white;
+  height: 60px;
+  border-radius: 25px;
+  font-size:25px;
+  font-weight:30px;
+  border-color:    #2B1EFC ;
+  text-decoration: none;
+}

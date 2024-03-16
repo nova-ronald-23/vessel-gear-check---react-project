@@ -52,15 +52,18 @@
 .rwhite-box {
   display: flex;
   background-color: #ffffff; /* Background color inside the box */
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
-  padding-top: 25px; 
+  padding-top: 30px; 
   padding-right:50px; 
   padding-bottom: 25px;
-  padding-left: 30px; 
+  padding-left: 25px; 
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100%;
  
  
 }
@@ -165,6 +168,7 @@
   font-weight: bold;
   
 }
+
 .rtrack{
   background-color: transparent;
   border: none;

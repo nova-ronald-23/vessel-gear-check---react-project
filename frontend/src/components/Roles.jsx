@@ -32,7 +32,9 @@ const RoleScreen = () => {
     <div className="rcontainer">
       
       <div className="rmain-content">
+     
         <div className="rwhite-box">
+        
           <div className='rbox1'>
             <div className="roptions-btn">
               {/* Buttons for options */}

@@ -36,17 +36,20 @@ body{
   text-decoration-color: #524E4E;
   font-size: medium;
   font-weight: bold;
+  height: 100%;
 }
-.box1 {
-  border-radius: 25px;
-  width: 300px;
+.box2 {
+  
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  width: 500px;
   height: 450px;
-  background-color: #cecece;
+  background-color: #9999;
   border: 1px solid #9999;
-  text-align: center;
-  padding-top: 20px;
-  margin-left: 50px;
- padding-bottom: 4px;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-left: 130px;
+
 }
 
 .captain-logo {
@@ -183,10 +186,13 @@ body{
   border-bottom-right-radius: 30px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding-top: 10px;
-  padding-right: 150px;
+  padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 200px;                                                                      
-  margin-left: -40px;
+  margin-left: -50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100%;
 }
 
 .text-fields {

@@ -45,10 +45,10 @@ const sidebar = () => {
             <img src={require("../components/images/opn4.png")} alt="Option 4" /> 
             <span>Visualization</span>
           </button>
-          <button className="option">
+          <Link to={"/Set"} className="option">
             <img src={require("../components/images/opn5.png")} alt="Option 5" /> 
             <span>Settings</span>
-          </button>
+          </Link>
             {/* Add more options as needed */}
 
       </div>
