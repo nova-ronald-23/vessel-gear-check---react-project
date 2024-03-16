@@ -68,6 +68,7 @@
   text-align: center;
   font-size: medium;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .option img {
@@ -80,6 +81,7 @@
   font-size: 16px;
   color: white;
   transition: color 0.3s ease;
+ 
 }
 
 .option:hover {
@@ -163,6 +165,7 @@
   padding-right: 150px;
   padding-bottom: 10px;
   padding-left: 200px;
+  margin-left: -39px;
 }
 
 .text-fields {
