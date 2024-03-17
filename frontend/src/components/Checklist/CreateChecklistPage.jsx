@@ -5,6 +5,7 @@ import { Paper } from '@mui/material';
 
 import { ChecklistMain } from './Checklist_Main';
 import { imageUrl } from './Checklist_Main';
+import modifydefult from'./modifydefult';
 
 
   
@@ -12,13 +13,16 @@ import { imageUrl } from './Checklist_Main';
 
 const createChecklistButtons = [
     { text: "New Checklist", path: "/new-checklist" },
-    { text: "Modify Default", path: "/modify-default-checklist" },
-    { text: "Back", path: "/",sx: { backgroundColor: 'blue', color: 'white' }  },
+    { text: "Modify Default", path: "/modifydefult" },
+    { text: "Back", path: "/checklistmain",sx: { backgroundColor: 'blue', color: 'white' }  },
   ];
   
   
   export const CreateChecklistPage = () => {
-    return (<Box>
+    return (
+      
+
+    <Box>
       <Box
     sx={{
       display: 'flex',

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Sidebar from './Sidebar'; 
+import Sidebar from '../Sidebar'; 
+import Checklistmain from './Checklist_Main';
 
 
 const DashboardPage = () => {
@@ -8,13 +9,7 @@ const DashboardPage = () => {
     <div className="dashboard">
       <Sidebar /> 
       <div className="main-content">
-        <div className="box">
-            <div className='box2'>
-
-            </div>
-          
-          
-        </div>
+        <Checklistmain/>
       </div>
     </div>
     

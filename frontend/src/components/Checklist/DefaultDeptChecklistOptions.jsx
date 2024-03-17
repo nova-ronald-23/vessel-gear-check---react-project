@@ -15,6 +15,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'; // Import
 import NotesIcon from '@mui/icons-material/Notes';
 import SaveIcon from '@mui/icons-material/Save';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Sidebar from '../Sidebar';
 
 // import EditIcon from '@mui/icons-material/Edit';
 // import DeleteIcon from '@mui/icons-material/Delete';
@@ -35,7 +36,9 @@ const InfoBox = ({ labelText, path, origin }) => {
   };
 
   return (
-    <Box
+    <div className='checklist'>
+      <Sidebar/>
+          <Box
       sx={{
         display: 'flex',
         
@@ -60,6 +63,7 @@ const InfoBox = ({ labelText, path, origin }) => {
       <Typography variant="h6">{labelText}</Typography>
       <ArrowForwardIosIcon />
     </Box>
+    </div>
   );
 };
 

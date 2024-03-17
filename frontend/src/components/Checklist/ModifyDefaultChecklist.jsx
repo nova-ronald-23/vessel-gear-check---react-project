@@ -10,8 +10,7 @@ import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import { useNavigate } from 'react-router-dom';
-
-const DefaultChecklistPage = () => {
+const ModifyDefaultChecklist = () => {
   const [isHovered, setIsHovered] = React.useState(false);
   const [selectedIndex, setSelectedIndex] = React.useState(null);
   const imageUrl = "/Cargo.svg";
@@ -19,7 +18,7 @@ const DefaultChecklistPage = () => {
 
   const handleListItemClick = (event, index) => {
     setSelectedIndex(index);
-    const paths = ['/preDeparture', '/preArrival'];
+    const paths = ['/deck', '/engine', '/safety', '/logistics', '/hospitality'];
     navigate(paths[index]);
   };
 
@@ -38,7 +37,7 @@ const DefaultChecklistPage = () => {
         bgcolor: '#C13B1B',
         color: 'white',
       }}>
-        <Typography variant="h6">Order</Typography>
+        <Typography variant="h6">Department</Typography>
       </Paper>
     </Box>
   );
@@ -52,25 +51,20 @@ const DefaultChecklistPage = () => {
       width: 220,
       padding: 0,
     }}>
-      {['Pre - Departure', 'Pre - Arrival'].map((text, index) => (
+      {['Deck', 'Engine', 'Safety', 'Logistics', 'Hospitality'].map((text, index) => (
         <ListItemButton
           key={text}
           onClick={(event) => handleListItemClick(event, index)}
           sx={{
-            bgcolor: selectedIndex === index ? '#C7C8CC' : 'inherit', // Manually set the background color
-            color: selectedIndex === index ? 'black' : 'inherit', // Change text color for selected item
+            bgcolor: selectedIndex === index ? '#00bfff' : 'inherit',
+            color: selectedIndex === index ? 'white' : 'inherit',
             '&:hover': {
-              bgcolor: '#C7C8CC',
-              color: 'black',
+              bgcolor: '#00bfff',
+              color: 'white',
             },
             justifyContent: 'center',
-            width: '80%',
+            width: '100%',
             textAlign: 'center',
-             // Adding padding
-            borderRadius: '20px', // Adding border radius
-            cursor: 'pointer', // Changing cursor to pointer on hover
-            marginBottom: '8px',
-            marginTop: '8px', // Adding margin bottom for spacing
           }}
         >
           <ListItemText primary={text} sx={{ textAlign: 'center' }} />
@@ -79,34 +73,16 @@ const DefaultChecklistPage = () => {
     </List>
   );
   
-
-  const blueButton = (
-    <Paper
-      elevation={3}
-      sx={{
-        width: '88%',
-        textAlign: 'center',
-        padding: '8px',
-        bgcolor: '#6C63FF',
-        color: 'white',
-        marginLeft:"5px",
-        marginBottom: '10px',
-        borderRadius:"5px",
-      }}
-      onClick={() => console.log("Blue Button Clicked")}
-    >
-      <Typography variant="subtitle1">Type</Typography>
-    </Paper>
-  );
-
   const listBoxContent = (
+   
+
     <Box sx={{ background: '#C7C8CC', width: 220, borderRadius: '4px' }}>
       {listHeaderBox}
-      {blueButton}
       {listBoxItems}
+      
     </Box>
   );
-
+ 
   return (
     <ChecklistMain
       content={<Box>
@@ -119,7 +95,7 @@ const DefaultChecklistPage = () => {
             height: 300,
           }}
         >
-          <img src={imageUrl} alt="Description" style={{ maxWidth: '100%', maxHeight: '100%', paddingTop: 20 }} />
+          <img src={imageUrl} alt="Description" style={{ maxWidth: '100%', maxHeight: '100%', paddingTop: 100 }} />
         
         </Box>
         <Box
@@ -135,7 +111,7 @@ const DefaultChecklistPage = () => {
       onMouseLeave={() => setIsHovered(false)}
     >
       <IconButton
-        onClick={() => navigate('/')} // Adjust the navigation path as needed
+        onClick={() => navigate('/createchecklist')} 
         sx={{
           color: 'white',
           bgcolor: 'black',
@@ -163,4 +139,4 @@ const DefaultChecklistPage = () => {
   );
 };
 
-export default DefaultChecklistPage;
+export default ModifyDefaultChecklist;

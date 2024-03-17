@@ -37,10 +37,10 @@ const sidebar = () => {
             <img src={require("../components/images/opn2.png")} alt="Option 2" /> 
             <span>Vessel Profiile</span>
           </Link>
-          <button className="option">
+          <Link to="/checklistmain" className="option">
             <img src={require("../components/images/opn3.png")} alt="Option 3" /> 
             <span>Checklist</span>
-          </button>
+          </Link>
           <button className="option">
             <img src={require("../components/images/opn4.png")} alt="Option 4" /> 
             <span>Visualization</span>

@@ -1,6 +1,9 @@
 import React from 'react';
+
+import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Sidebar from './Sidebar'; 
+import Sidebar from '../Sidebar'; 
+import Modifydefult from './ModifyDefaultChecklist';
 
 
 const DashboardPage = () => {
@@ -8,13 +11,7 @@ const DashboardPage = () => {
     <div className="dashboard">
       <Sidebar /> 
       <div className="main-content">
-        <div className="box">
-            <div className='box2'>
-
-            </div>
-          
-          
-        </div>
+       <Modifydefult/>
       </div>
     </div>
     
