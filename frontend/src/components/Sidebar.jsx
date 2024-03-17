@@ -26,7 +26,7 @@ const sidebar = () => {
 
       <div className="sidebar-options">
       <Link to="/dashboard" className="option"> 
-            <img src={require("../components/images/opn1.png")} alt="Option 2" /> 
+            <img src={require("../components/images/dash.png")} alt="Option 2" /> 
             <span>Dash Board</span>
           </Link>
           <Link to="/roles" className="option"> 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
+//import styles from './WeatherApp.module.css';
 import './WeatherApp.css';
-
 import cloud_icon from '../Assets/cloud.png';
 import humidity_icon from '../Assets/humidity.png';
 import wind_icon from '../Assets/wind.png';
@@ -67,7 +67,7 @@ const WeatherApp = () => {
     }, []);
 
     return (
-        <>
+        <><div className="wbody">
             <div className="container">
                 <div className="ellipse1"></div>
                 <div className="ellipse2"></div>
@@ -114,6 +114,7 @@ const WeatherApp = () => {
                         <Link to="/login" className="login-button">Get Started</Link>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );

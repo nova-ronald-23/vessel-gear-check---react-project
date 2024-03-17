@@ -18,6 +18,7 @@ const NewPassword = () => {
   };
 
   return (
+    <div className="lbody">
     <div className="new-password-container">
       <h2 className="new-password-title">New Password</h2>
       <div className="new-password-form">
@@ -38,6 +39,7 @@ const NewPassword = () => {
           Back to Login
         </Link>
       </div>
+    </div>
     </div>
   );
 };

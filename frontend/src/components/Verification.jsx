@@ -15,6 +15,7 @@ const VerificationPage = () => {
   };
 
   return (
+    <div className="lbody">
     <div className="verification-page">
       <form onSubmit={handleSubmit} className="verification-form">
         <h2 className='verification-title'>Verification Page</h2>
@@ -33,6 +34,7 @@ const VerificationPage = () => {
           Resend
         </button>
       </form>
+    </div>
     </div>
   );
 };

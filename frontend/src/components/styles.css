@@ -1,7 +1,7 @@
 .container {
   display: flex;
   height: 100vh;
-  margin: 0; /* Remove any default margin */
+  margin: 0; 
 }
 .dashboard {
   display: flex;
@@ -43,7 +43,7 @@ body{
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
   width: 500px;
-  height: 450px;
+  height: 500px;
   background-color: #9999;
   border: 1px solid #9999;
   align-items: center;

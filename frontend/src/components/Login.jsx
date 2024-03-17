@@ -58,6 +58,7 @@ const LoginPage = () => {
   };
 
   return (
+    <div className="lbody">
     <div className="login-page">
       <form className="login-form" onSubmit={handleFormSubmit}>
         <h1 className="login-heading">Login</h1>
@@ -87,6 +88,7 @@ const LoginPage = () => {
         <p className="login-link">Don't have an account? <Link to="/signup">Sign up</Link></p>
         <p className="login-link"><a href="/forgotpassword">Forgot password?</a></p>
       </form>
+    </div>
     </div>
   );
 };
