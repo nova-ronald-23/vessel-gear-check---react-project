@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+}
+
+.container {
+    display: flex;
+    height: 100vh; /* Make the container full screen */
+  }
+  
+  .blue {
+    flex: 1; /* Take up half of the screen */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
+    
+  }
+  
+  .green {
+    flex: 4; /* Take up half of the screen */
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(165,159,255,1) 35%, rgba(108,99,255,1) 69%, rgba(44,31,253,1) 100%);
+    display: flex;
+     /* Center items vertically */
+  }
+  
+  .green-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 60px;
+    padding-left: opx;/* Stack boxes vertically */
+  }
+  
+  .box {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 1050px;
+    height: 540px;
+    background-color: #E1E1E1;
+    margin-top: -3.5vh;
+    margin-bottom: 3.5%;
+  }
+  .boxhead{
+    width: 85%;
+    height: 11.5%;
+    background-color: white;
+    padding-top: 1.7%;
+    margin-top: 2.5%;
+    position: relative;
+    margin-left: 8%;
+    border-radius: 15px;
+  }
+  .selection{
+    width: 75%;
+    height: 35%;
+    background-color: white;
+    position: absolute;
+    margin-top: -14%;
+    margin-left: 8%;
+    border-radius: 15px;
+  }
+  .selection form{
+    margin-right: 2rem;
+  }
+  .selection label{
+    margin-right: 2rem;
+    color: #524E4E;
+  }
+  .selection input{
+    margin-right: 2rem;
+  }
+
+  .boxicon{
+    width: 6%;
+    height:18%;
+    background-color: white;
+    margin-left: 85%;
+    margin-top: 6.5%;
+    border-radius: 25%;
+  }
+  .box button{
+    margin-top: 20%;
+    margin-left: 42%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #6C63FF;
+    color: white;
+  }
+  .box button:hover{
+    background-color: #4539FF;
+  }
+  .green-inner input{
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 14%;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-left: 9%;
+    margin-top: -3.2%;
+    outline: none;
+    background-color: #E1E1E1;
+    border: none;
+  }
+  .notify{
+    width: 5.5%;
+    height: 11.5%;
+    margin-bottom: 5.3%;
+    margin-top: -3.5%;
+    margin-left: 56%;
+    border-radius: 15px;
+  }
+  #rol5{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 1050px;
+    height: 78px;
+    background-color: white;
+    border-top-right-radius: 30px;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: -2.7%;
+  }
+  #rol5 h4{
+    color: #524E4E;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding-top: 1.4%;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px; /* Flex-grow: 0, Flex-shrink: 0, Flex-basis: 200px */
+    background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF 48.98%, #4539FF 71.76%, #2B1EFC 100%);
+    /*border-right: 01px solid #ccc; /* Adding border to identify */
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+  .sheader {
+    display: flex;
+    margin-top: 5px;
+    justify-content :flex-start; /* Align items to the left */
+    align-items: center; /* Center vertically */
+    padding: 8px;
+    padding-right: 40px;
+    background: #FFFFFF;
+    border-radius: 45px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration-color:#524E4E; 
+    font-size: medium;
+    font-weight: bold;
+    }
+  
+  .captain-logo {
+    background-image: url('/src/component/images/cap.png'); /* Specify the path to your image */
+    background-size: contain; /* Adjust the size of the background image */
+    background-repeat: no-repeat; /* Ensure the image is not repeated */
+    width: 55px; /* Adjust the width of the logo */
+    height: 55px; /* Adjust the height of the logo */
+  }
+  
+  .captain-text {
+    color: #524E4E;
+    letter-spacing: 0.5px;
+    margin-left: 18px; /* Add margin to separate the text from the logo */
+  }
+  
+  .sidebar-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-top: 30px;
+    margin-bottom: 51.3%;
+    }
+  
+  .option {
+    display: flex; /* Change display to flex */
+    align-items: center; /* Align items vertically */
+    padding: 10px 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    background-color: transparent; /* Set background color to transparent by default */
+    border: none; /* Remove any border */
+    outline: none; /* Remove outline */
+    font-size: 16px; /* Adjust font size */
+    color: white; /* Set text color */
+    transition: background-color 0.3s ease;
+    width: 200px; 
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+    align-items: center;
+  }
+  
+  .option img {
+    width: 30px; /* Adjust image size */
+    margin-right: 10px; /* Add space between image and text */
+    transition: filter 0.3s ease, mix-blend-mode 0.3s ease;; /* Apply transition to the image filter */
+  }
+  
+  .option span {
+    font-size: 16px; /* Adjust font size */
+    color: white; /* Set text color */
+    font-weight: 450;
+    letter-spacing: 0.2px;
+    transition: color 0.3s ease; /* Apply transition to text color */
+  }
+  
+  .option:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Change background color on hover with opacity */
+    border-radius: 40px;
+  }
+  
+  
+  .option:hover img {
+    filter: grayscale(100%) brightness(40%); /* Convert image to grayscale and reduce brightness on hover */
+    mix-blend-mode: luminosity; /* Apply mix-blend-mode to make white areas grey */
+  }
+  
+  .option:hover span {
+    color: #524E4E; /* Change text color to grey on hover */
+  }
+  
+  .sign-out-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    bottom: 20px;
+    margin-top: -24%;
+    margin-left: -4.5%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: #00000033;/*background-color: rgba(255, 255, 255, 0.3); /* Mild color with transparency */
+    text-align: center;
+    font-size:medium;
+    font-weight: bold;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-out-button img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .sign-out-button span {
+    color:white;
+    font-weight: 450;
+    letter-spacing: 0.8px;
+  }
+  
+  .sign-out-button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Darker color on hover */
+  }
+  
