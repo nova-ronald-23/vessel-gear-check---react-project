@@ -1,8 +1,8 @@
 import React from 'react'
-import './Createnew.css'
+import './Edit.css'
 import { useState } from 'react';
 
-function Createnew() {
+function Edit() {
     const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -54,15 +54,15 @@ function Createnew() {
               <div className="box">
               <div className='boxhead'>
                     <text style={{fontSize: 16, fontWeight: 700, color: '#524E4E',
-                paddingLeft: 60,}}>Hospitality / <span style={{color: '#6C63FF',fontWeight:500,}}>Passenger</span></text>
+                paddingLeft: 60,}}>Hospitality</text>
                 </div>
-                <div className='boxicon'>
-                <img onClick={handleClick} src={require("../component/images/Add.png")} style={{width: 35, height: 35,marginLeft: 15, marginTop: 7, }} alt="add" /><br></br>
-                <img onClick={handleClick} src={require("../component/images/Remove.png")} style={{width: 35, height: 35,marginTop: 2, marginLeft: 15,}} alt="delete" />
-                </div>
+            
                 <div className='selection'>
-                    <input type='text' placeholder='Fill the Question' style={{width:600, height: 43,
-                     marginTop: 22, marginLeft: 25,outline: 'none', paddingLeft: 35, fontSize: 13 }}></input>
+                    <input type='text' placeholder='Appropriate cargo deck' style={{width:600, height: 43,
+                     marginTop: 13, marginLeft: 7,outline: 'none', paddingLeft: 35, fontSize: 16, 
+                     fontWeight: 500, letterSpacing: 0.3, backgroundColor:'white' }}></input>
+                     <img onClick={handleClick} src={require("../component/images/Edit.png")} style={{width: 28, height: 28,marginLeft: 845, marginTop: 13, }} alt="add" /><br></br>
+                    <img onClick={handleClick} src={require("../component/images/Remove.png")} style={{width: 30, height: 30,marginTop: 58, marginLeft: 846,}} alt="delete" />
                      <form>
                         <input type='radio' name="option" id ="rad1"/>
                         <label for="rad1" style={{marginTop: -3, marginLeft: 20,}}>Done</label><br></br>
@@ -80,4 +80,4 @@ function Createnew() {
   )
 }
 
-export default Createnew
+export default Edit

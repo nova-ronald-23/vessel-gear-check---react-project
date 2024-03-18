@@ -54,17 +54,17 @@
     border-radius: 15px;
   }
   .selection{
-    width: 75%;
-    height: 35%;
+    width: 85%;
+    height: 30%;
     background-color: white;
     position: absolute;
-    margin-top: -14%;
+    margin-top: 2%;
     margin-left: 8%;
     border-radius: 15px;
   }
   .selection form{
     margin-right: 2rem;
-    margin-top: 11%;
+    margin-top: -9%;
     margin-left: 5%;
     position: absolute;
   }
@@ -74,9 +74,6 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.8px;
-  }
-  .selection input{
-    margin-right: 2rem;
   }
 
   .boxicon{
@@ -88,7 +85,7 @@
     border-radius: 15px;
   }
   .box button{
-    margin-top: 20%;
+    margin-top: 35%;
     margin-left: 42%;
     border-radius: 25px;
     border: none;
