@@ -36,25 +36,89 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: relative;
     border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
     width: 1050px;
-    height: 550px;
+    height: 490px;
     background-color: white;
-    margin-top: -16.5vh;
+    margin-top: 5vh;
     margin-bottom: 3.5%;
+    justify-content: center;
+    z-index: 2;
+  }
+  .box button{
+    width: 16.5%;
+    height: 8.5%;
+    margin-left: 59.7%;
+    margin-bottom: -9%;
+    margin-top: 4%;
+    border-radius: 5px;
+    border: none;
+    background-color: #6C63FF;
+    color: white;
+    cursor: pointer;
+  }
+  .box button:hover{
+    background-color: #363535;
   }
   .box img{
-    margin-left: 49%;
-    margin-top: 7.5%;
+    margin-left: 17%;
+    margin-top: -50%;
+    justify-content: center;
+    margin-bottom: 6%;
   }
   .selection{
-    width: 290px;
-    height: 270px;
-    background-color: #E1E1E1;
+    width: 230px;
+    height: 145px;
+    background-color: #767676;
     position: absolute;
-    margin-top: 6%;
-    margin-left: 10%;
-    border-radius: 25px;
+    margin-top: 4.2%;
+    margin-left: 57%;
+    border-radius: 20px;
   }
+  .selection img{
+   width: 48px;
+   height: 48px; 
+   margin-top: 30%;
+   margin-left: 10%
+  }
+  .selection text{
+    border: 1px solid  white;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: 5.5%;
+    cursor: default;
+  }
+  .selectiontwo text{
+    border: 1px solid  white;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 63px;
+    padding-right: 63px;
+    margin-left: 6%;
+    position: absolute;
+    margin-top: 5.5%;
+    cursor: default;
+  }
+  .selectiontwo{
+    width: 230px;
+    height: 145px;
+    background-color: #767676;
+    position: absolute;
+    margin-top: 19.5%;
+    margin-left: 57%;
+    border-radius: 20px;
+    position: relative;
+  }
+  .selectiontwo img{
+    width: 48px;
+    height: 40px; 
+    margin-top: 32%;
+    margin-left: 10%
+   }
   .selection button{
     margin-top: 48.5%;
     margin-left: 7%;
@@ -84,27 +148,10 @@
   .notify{
     width: 5.5%;
     height: 11.5%;
-    margin-bottom: 5.3%;
     margin-top: -3.5%;
     margin-left: 56%;
     border-radius: 15px;
     cursor: pointer;
-  }
-  #rol5{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 1050px;
-    height: 78px;
-    background-color: white;
-    border-top-right-radius: 30px;
-    margin-bottom: 10%;
-    text-align: center;
-    margin-top: -2.7%;
-  }
-  #rol5 h4{
-    color: #524E4E;
-    font-size: 17px;
-    letter-spacing: 1px;
-    padding-top: 1.4%;
   }
   .sidebar {
     display: flex;
@@ -209,8 +256,7 @@
     width: 160px;
     height: 48px;
     bottom: 20px;
-    margin-bottom: 5%;
-    margin-top: -10.6%;
+    margin-top: -5.4%;
     margin-left: 70%;
     padding: 10px 20px;
     border-radius: 15px;
