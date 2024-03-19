@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './test2.css'
+import './LandingPage.css'
 
 import cloud_icon from '../Assets/cloud.png';
 import humidity_icon from '../Assets/humidity.png';
@@ -7,7 +7,7 @@ import wind_icon from '../Assets/wind.png';
 import locator_icon from '../Assets/locator.png';
 import ship_icon from '../Assets/ship.png';
 
-const WeatherApp = () => {
+const LandingPage = () => {
     const api_key = "4d4f689d9c7293aa4b580d2c231f2849";
     const [location, setLocation] = useState("");
     const [temperature, setTemperature] = useState("");
@@ -152,4 +152,4 @@ const WeatherApp = () => {
     );
 }
 
-export default WeatherApp;
+export default LandingPage;
