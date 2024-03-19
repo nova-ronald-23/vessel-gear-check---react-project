@@ -4,7 +4,7 @@ import './App.css';
 /*import Edit from './component/Edit';*/
 /*import Select from './component/Select';*/
 /*import Dashboard from './component/Dashboard';*/
-import Tasktracking from './component/Tasktracting';
+import Tasktracking from './component/Tasktracking';
 /*import Selectone from './component/Selectone';*/
 /*import Selecttwo from './component/Selecttwo';*/
 
