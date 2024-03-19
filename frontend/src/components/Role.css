@@ -37,13 +37,15 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1; 
-  width: 1022px;
+  width: fill;
+  height: fill;
   justify-content: space-around; /* Add space around the box */
   background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
-  padding-top: 10px; 
   padding-right:35px; 
   padding-bottom: 10px; 
   padding-left: 0px;
+  padding-top: 20px;
+
   
 }
 

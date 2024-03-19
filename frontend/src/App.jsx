@@ -22,6 +22,11 @@ import Createchecklist from './components/Checklist/createchecklist';
 import ChecklistMainContent from './components/Checklist/Checklist_Main';
 import ModifyDefaultChecklist from './components/Checklist/ModifyDefaultChecklist';
 import Modifydefult from './components/Checklist/modifydefult';
+import Deptchecklistoptions from './components/Checklist/DeptChecklistOptions';
+import Predep from './components/Checklist/predep';
+import Newchecklist from './components/Checklist/newchecklist';
+import Selectiontwo from './components/Checklist/selectiontwo';
+import Selecthree from './components/Checklist/selectionthree';
 import { SubmissionComponent } from './components/Checklist/DeptChecklistOptions';
 import { DocumentationComponent,ExternalHullPreBoardingComponent,ISMCodeComponent,RadioComponent,WheelHouseComponent,CommonCheckComponent,DeckHoursofRestComponent } from './components/Checklist/DeptChecklistOptions';
 import {DeckComponent,EngineComponent,SafetyComponent,LogisticsComponent,HospitalityComponent }from './components/Checklist/DeptChecklistOptions';
@@ -55,6 +60,11 @@ const App = () => {
         <Route path="/createchecklist" element={<Createchecklist/>}/>
         <Route path="/modify-default-checklist" element={<ModifyDefaultChecklist />}/>
         <Route path="/modifydefult" element={<Modifydefult/>}/>
+        <Route path="/selectiontwo" element={<Selectiontwo/>}/>
+        <Route path="/deptchecklistoptions" element={<Deptchecklistoptions/>}/>
+        <Route path="/predep" element={<Predep/>}/>
+        <Route path="/new-checklist" element={<Newchecklist/>}/>
+        <Route path="/selectionthree" element={<Selecthree/>}/>
         <Route path="/deck" element={<DeckComponent />}/>
         <Route path="/engine" element={<EngineComponent />}/>
         <Route path="/safety" element={<SafetyComponent />}/>

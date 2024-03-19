@@ -3,15 +3,16 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar'; 
-import Modifydefult from './ModifyDefaultChecklist';
+import Deptchecklistoptions from './DeptChecklistOptions';
 
 
-const modifychecklist = () => {
+
+const predep = () => {
   return (
     <div className="dashboard">
       <Sidebar /> 
       <div className="main-content">
-       <Modifydefult/>
+       <Deptchecklistoptions/>
       </div>
     </div>
     
@@ -19,4 +20,4 @@ const modifychecklist = () => {
   );
 };
 
-export default modifychecklist;
+export default predep;

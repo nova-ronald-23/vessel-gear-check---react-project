@@ -50,12 +50,14 @@ const sidebar = () => {
             <span>Settings</span>
           </Link>
             {/* Add more options as needed */}
+            <button className="sign-out-button">
+            <img src={require("../components/images/sout.png")} alt="Sign Out" />
+            <span>Sign Out</span>
+            </button>
 
       </div>
-        <button className="sign-out-button">
-          <img src={require("../components/images/sout.png")} alt="Sign Out" />
-          <span>Sign Out</span>
-          </button>
+      
+      
 
       </div>
 

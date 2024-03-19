@@ -21,12 +21,12 @@ const VesselProfile = () => {
         <div className="box">
           <div className="header">Vessel Profile</div>
           <div className="text-fields">
-            <input type="text" placeholder="Field 1" />
-            <input type="text" placeholder="Field 2" />
-            <input type="text" placeholder="Field 3" />
-            <input type="text" placeholder="Field 4" />
-            <input type="text" placeholder="Field 5" />
-            <input type="text" placeholder="Field 6" />
+            <input type="text" placeholder="Captain's Name" />
+            <input type="text" placeholder="Name of the Chief Engineer" />
+            <input type="text" placeholder="Nameof the Chief Mate" />
+            <input type="text" placeholder="Vessel ID" />
+            <input type="text" placeholder="Vessel Name" />
+            <input type="text" placeholder="Type and Class" />
           </div>
           <div className="button-container">
             <button className="button1" onClick={Exit}>Exit</button>

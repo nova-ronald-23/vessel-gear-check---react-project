@@ -9,6 +9,7 @@ import Typography from '@mui/material/Typography'; // For text in the header
 import IconButton from '@mui/material/IconButton';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
+
 import { useNavigate } from 'react-router-dom';
 const ModifyDefaultChecklist = () => {
   const [isHovered, setIsHovered] = React.useState(false);
@@ -18,7 +19,7 @@ const ModifyDefaultChecklist = () => {
 
   const handleListItemClick = (event, index) => {
     setSelectedIndex(index);
-    const paths = ['/deck', '/engine', '/safety', '/logistics', '/hospitality'];
+    const paths = ['/predep', '/engine', '/safety', '/logistics', '/hospitality'];
     navigate(paths[index]);
   };
 

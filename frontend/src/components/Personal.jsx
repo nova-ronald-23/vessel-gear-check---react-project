@@ -1,12 +1,14 @@
 import React from 'react'
 import './Personal.css'
 import Sidebar from './Sidebar';
+import Header from './header';
 
 export const Personal = () => {
   return (
     <div className="pcontainer">
       <Sidebar/>
         <div className="pmain-content">
+          <Header/>
             <div className="pwhite-box">
                 <div className="pcaptain-logo"></div>
               <input type="text" placeholder="Enter email ID" />

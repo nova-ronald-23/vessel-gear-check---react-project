@@ -37,20 +37,19 @@
 
 .ellipse2 {
     position: absolute;
-    bottom: -200px;
-    left: -20px;
-    width: 600px;
-    height: 600px;
-    background-color: #db4c39;
+    bottom: -00px;
+    left: -120px;
+    width: 400px;
+    height: 400px;
+    background-color: #D64B38;
     border-radius: 50%;
-    
-}
+}       
 
 .container1 {
     width: 380px;
     height: 320px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    background-image: linear-gradient(180deg, #13075486 0%, #3b2f808a 100%);
     color: white;
     margin: 20px;
     margin-left: 110px;
@@ -65,7 +64,7 @@
     width: 220px;
     height: 120px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    background-image: linear-gradient(180deg, #13075473 0%, #3b2f8073 100%);
     color: white;
     margin-top: 180px;
     padding-block-end: 30px;

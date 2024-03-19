@@ -13,6 +13,11 @@ const VesselProfileNext = () => {
         // Redirect to the dashboard after successful login
         navigate('/vesselprofile');
       };
+      const handleFileSelection = (event) => {
+        const file = event.target.files[0];
+        console.log('Selected file:', file);
+        // Perform further actions with the selected file
+    };
  
 
 
@@ -26,12 +31,13 @@ const VesselProfileNext = () => {
         <div className="box">
         <div className="header">Vessel Profile</div>
           <div className="text-fields">
-              <input type="text" placeholder="Field 1" />
-              <input type="text" placeholder="Field 2" />
-              <input type="text" placeholder="Field 3" />
-              <input type="text" placeholder="Field 4" />
-              <input type="text" placeholder="Field 5" />
-              <input type="text" placeholder="Field 6" />
+              <input type="text" placeholder="Country" />
+              <input type="text" placeholder="IMO Number" />
+              <input type="text" placeholder="IMO Type" />
+              Registry Info<input type="file" accept=".pdf" className="file-input" onChange={handleFileSelection} />
+              Maintanence Schedule<input type="file" accept=".pdf" className="file-input" onChange={handleFileSelection} />
+              Repair Histroy<input type="file" accept=".pdf" className="file-input" onChange={handleFileSelection} />
+              
             </div>
             <div className="button-container">
             <button className="button1" onClick={() => Back()}>Back</button>

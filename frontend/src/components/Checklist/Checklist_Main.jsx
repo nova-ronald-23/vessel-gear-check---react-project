@@ -10,14 +10,14 @@ import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
-import Sidebar from '../Sidebar'; 
+
 //import './checklist.css';
 
 
 // ChecklistMain.js
 export function ChecklistMain({ content, buttons = [], additionalContent, boxStyle,bottomborder, showCard = true }) {
   return (
-    <div className="checkbody">
+    
     <Box
       sx={{
         display: 'flex',
@@ -60,7 +60,7 @@ export function ChecklistMain({ content, buttons = [], additionalContent, boxSty
         {content}
       </Paper>
     </Box>
-    </div>
+    
   );
 }
 
@@ -110,7 +110,7 @@ export function ReusableButton({ buttonText, to, sx,onClick }) {
 // ChecklistMainContent.js
 
 const buttons = [
-  { text: "Create Checklist", path: "/createchecklist" },
+  { text: "Create Checklist", path: "/new-checklist" },
   { text: "Default Checklist", path: "/default-checklist" },
   { text: "Properties", path: "/properties" },
 ];

@@ -15,6 +15,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos'; // Import
 
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
+import sidebar from '../Sidebar';
 
 /***************************************************InfoBox********************************************/
 const imageUrl='ship3.png'

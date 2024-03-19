@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Sidebar from './Sidebar';
+import Header from './header'
 import './Role.css';
 import './styles.css';
 
@@ -32,7 +33,7 @@ const RoleScreen = () => {
     <div className="rcontainer">
       
       <div className="rmain-content">
-     
+        <Header/>
         <div className="rwhite-box">
         
           <div className='rbox1'>
