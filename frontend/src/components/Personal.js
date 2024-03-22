@@ -13,13 +13,13 @@ export const Personal = () => {
   };
 
   return (
-    <div className="container">
-      <div className="main-content">
-        <div className="white-box">
-          <div className="captain-logo"></div>
+    <div className="percontainer">
+      <div className="permain-content">
+        <div className="perwhite-box">
+          <div className="percaptain-logo"></div>
           <input type="text" placeholder="Enter email ID" />
           <input type="text" placeholder="Enter your Name" />
-          <div className="dropdown">
+          <div className="perdropdown">
             <select onChange={handlePositionChange}>
               <option value="">Select Your Position</option>
               <option value="option1">Captain</option>
@@ -34,9 +34,9 @@ export const Personal = () => {
           {showOtherInput && ( // Conditionally render the input for "Others"
             <input type="text" placeholder="Enter your Position" />
           )}
-          <div className="button-container">
-            <button className="button1">Exit</button>
-            <button className="button2">Update</button>
+          <div className="perbutton-container">
+            <button className="perbutton1">Exit</button>
+            <button className="perbutton2">Update</button>
           </div>
         </div>
       </div>

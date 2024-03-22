@@ -1,4 +1,4 @@
-.container {
+.percontainer {
     display: flex;
     flex-direction: column;
     
@@ -7,7 +7,7 @@
     padding-top: 10px;/* Adjust as needed */
    
   }
-  .main-content {
+  .permain-content {
     display: flex;
     flex-direction: column;
     flex-grow: 1; /* Takes remaining space */
@@ -18,7 +18,7 @@
     padding-bottom: 8px;
     
   }
-  .white-box {
+  .perwhite-box {
     display: flex;
     background-color: #ffffff; /* Background color inside the box */
     border-top-right-radius: 30px;
@@ -52,13 +52,13 @@ input[type="text"] {
   padding: 8px;
   font-size: 17px;
   box-sizing: content-box;
-}.button-container {
+}.perbutton-container {
   display: flex;
   justify-content: center; /* Center buttons */
   margin-top: 20px;
 }
 
-.button1 {
+.perbutton1 {
   margin: 0px 90px; /* Adjust margin between buttons */
   padding: 10px 30px;
   border-radius: 20px;
@@ -70,7 +70,7 @@ input[type="text"] {
   transition: background-color 0.3s ease;
 }
 
-.button2 {
+.perbutton2 {
   margin: 0px 90px; /* Adjust margin between buttons */
   padding: 10px 30px;
   border-radius: 20px;
@@ -85,14 +85,14 @@ input[type="text"] {
 button:hover {
   background-color: #45a049;
 }
-.captain-logo {
+.percaptain-logo {
   background-image: url('/src/components/images/cap.png'); /* Specify the path to your image */
   background-size: contain; /* Adjust the size of the background image */
   background-repeat: no-repeat; /* Ensure the image is not repeated */
   width: 50px; /* Adjust the width of the logo */
   height: 50px; /* Adjust the height of the logo */
 }
-.dropdown {
+.perdropdown {
   width: 50%;
   padding: 5px;
   border: 1px solid;
@@ -102,7 +102,7 @@ button:hover {
 }
 
 /* Style for the dropdown options */
-.dropdown select {
+.perdropdown select {
   width: 100%;
   padding: 8px;
   border: none;
@@ -116,7 +116,7 @@ button:hover {
 }
 
 /* Style for the dropdown arrow */
-.dropdown::after {
+.perdropdown::after {
   content: "\25BC"; /* Unicode character for down arrow */
   position: absolute;
   top: 50%;
@@ -126,7 +126,7 @@ button:hover {
 }
 
 /* Style for dropdown when it's open */
-.dropdown.open select {
+.perdropdown.open select {
   border: 1px solid #ccc;
   border-radius: 5px 5px 0 0;
   font-size: 18px;
@@ -138,7 +138,7 @@ button:hover {
 
 
 /* Style for dropdown options */
-.dropdown select option {
+.perdropdown select option {
   padding: 15px;
   
   font-size: 18px;
