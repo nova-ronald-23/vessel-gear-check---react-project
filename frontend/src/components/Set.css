@@ -1,4 +1,4 @@
-.container {
+.setcontainer {
   display: flex;
   flex-direction: column;
   
@@ -9,7 +9,7 @@
 
 
 
-.main-side {
+.setmain-side {
   flex: 4; /* Take up half of the screen */
   background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
   display: flex;
@@ -20,7 +20,7 @@
    /* Center items vertically */
 }
 
-.white-box {
+.setwhite-box {
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
   margin-left: 25%;
@@ -37,7 +37,7 @@
   /* Add this to distribute space between children */
 }
 
-.inner-box1 {
+.setinner-box1 {
   border-radius: 25px;
   width: 500px;
   height: 80px;
@@ -52,7 +52,7 @@
 }
 
 
-.personalization{
+.setsonalization{
   width:250px;
   color: white;
   height: 60px;

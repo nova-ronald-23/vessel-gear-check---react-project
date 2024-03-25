@@ -1,20 +1,15 @@
 
-.container {
+.rolcontainer {
   display: flex;
   flex-direction: column;
   
   height: 100%; 
   width: 100%;
-  padding-top: 10px;/* Adjust as needed */
+  padding-top: 0px;/* Adjust as needed */
  
 }
+.roloption {
 
-
-
-
-
-
-.option {
   display: flex; /* Change display to flex */
   align-items: center; /* Align items vertically */
   padding: 15px 25px;
@@ -38,21 +33,21 @@
 
 
 
-.main-content {
+.rolmain-content {
   display: flex;
   flex-direction: column;
   flex-grow: 1; /* Takes remaining space */
  /* Example of left padding */
   justify-content: space-around; /* Add space around the box */
   background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 8px;
   
 }
 
 
 
-.white-box {
+.rolwhite-box {
   display: flex;
   background-color: #ffffff; /* Background color inside the box */
   border-top-right-radius: 30px;
@@ -70,7 +65,7 @@
  
  
 }
-.box1 {
+.rolbox1 {
   border-radius: 25px;
  
   width: 300px;
@@ -83,7 +78,7 @@
  padding-bottom: 4px;
 }
 
-.box2 {
+.rolbox2 {
   
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -97,7 +92,7 @@
   margin-left: 20px;
 
 }
-.inside-box{
+.rolinside-box{
   display: flex;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -111,7 +106,7 @@
   text-align: center;
 }
 
-.options-btns {
+.roloptions-btns {
   display: flex;
   width: 300px;
   flex-direction: column;
@@ -119,7 +114,7 @@
   margin-top: 10px; /* Add space between header and text fields */
 }
 
-.button-container {
+.rolbutton-container {
   display: flex;
   justify-content: center; /* Center buttons */
   margin-top: 20px;
@@ -170,7 +165,7 @@
   font-weight: bold;
   
 }
-.track{
+.roltrack{
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -186,7 +181,7 @@
   height: 30px;
   background: #283747;
 }
-.track1{
+.roltrack1{
   padding-top: 5px;
   padding-bottom: 0%;
   

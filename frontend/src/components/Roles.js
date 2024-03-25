@@ -25,11 +25,11 @@ const RoleScreen = () => {
   };
 
   return (
-    <div className="container">
-      <div className="main-content">
-        <div className="white-box">
-          <div className='box1'>
-            <div className="options-btn">
+    <div className="rolcontainer">
+      <div className="rolmain-content">
+        <div className="rolwhite-box">
+          <div className='rolbox1'>
+            <div className="roloptions-btn">
               {/* Buttons for options */}
               <button 
                 className={selectedOptions.includes('Captain') ? 'selectedButton' : 'option1'}
@@ -78,11 +78,11 @@ const RoleScreen = () => {
             </div>
             
           </div>
-          <div className='box2'>
-          <div className='track1'><button className='track'> Task Tracking</button></div>
+          <div className='rolbox2'>
+          <div className='roltrack1'><button className='roltrack'> Task Tracking</button></div>
           
-          <div className='inside-box'></div>
-          <div className='inside-box'></div>
+          <div className='rolinside-box'></div>
+          <div className='rolinside-box'></div>
           </div>
           
               

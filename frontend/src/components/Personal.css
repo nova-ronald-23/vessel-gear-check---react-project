@@ -4,7 +4,7 @@
     
     height: 100%; 
     width: 100%;
-    padding-top: 10px;/* Adjust as needed */
+    padding-top: 0px;/* Adjust as needed */
    
   }
   .permain-content {
@@ -14,7 +14,7 @@
    /* Example of left padding */
     justify-content: space-around; /* Add space around the box */
     background: linear-gradient(180deg, #BEBAFB 0.93%, #6C63FF  48.98%, #4539FF 71.76%, #2B1EFC 100%);
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 8px;
     
   }

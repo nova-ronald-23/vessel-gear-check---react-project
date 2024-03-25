@@ -3,13 +3,13 @@ import './Set.css'
 
 export const Set = () => {
   return (
-    <div className="container">
+    <div className="setcontainer">
     
-    <div className="main-side">
+    <div className="setmain-side">
       
-        <div className="white-box">
-          <div className="inner-box1">
-              <button className='personalization'>Personalization</button>
+        <div className="setwhite-box">
+          <div className="setinner-box1">
+              <button className='setsonalization'>Personalization</button>
               
           </div>
           
