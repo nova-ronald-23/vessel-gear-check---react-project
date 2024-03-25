@@ -1,0 +1,32 @@
+.checkbody{
+    
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1; 
+        width: 1022px;
+        justify-content: space-around;
+        padding-top: 10px; 
+        padding-right:35px; 
+        padding-bottom: 10px; 
+        padding-left: 0px; 
+        background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+        justify-content: left;
+        align-items: left;    
+}
+.wbox{
+    
+        display: flex;
+        margin-top: 25px;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        padding-right: 50px;
+        background: #FFFFFF;
+        border-radius: 45px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-decoration-color: #524E4E;
+        font-size: medium;
+        font-weight: bold;
+        height: 100%;
+      
+}

@@ -91,6 +91,7 @@ const SignUp = () => {
   };
 
   return (
+    <div className="lbody">
     <div className="sign-up-container">
       <form className="signup-form">
         <h2 className="sign-up-title">Sign Up</h2>
@@ -118,6 +119,7 @@ const SignUp = () => {
           <p className="already-have-account">Already have an account? <Link to="/login">Login</Link></p>
         </div>
       </form>
+    </div>
     </div>
   );
 };

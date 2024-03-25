@@ -1,0 +1,150 @@
+.pcontainer {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+   
+  }
+  .pmain-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    width: 1022px;
+    justify-content: space-around;
+    padding-top: 10px; 
+    padding-right:35px; 
+    padding-bottom: 10px; 
+    padding-left: 0px; 
+    background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+    
+    
+  }
+  .pwhite-box {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff; /* Background color inside the box */
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding-top: 30px; /* Example of top padding */
+    padding-right:40px; /* Example of right padding */
+    padding-bottom: 5px; /* Example of bottom padding */
+    padding-left: 20px; /* Example of left padding *//* Padding inside the card */
+    width: 700px;
+    height: 490px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+     
+  }
+::placeholder{
+  text-align: center;
+  font-size: 17px;
+  align-items: center;
+}  
+
+input[type="text"] {
+  margin-top: 15px;
+  margin-bottom: 18px;
+  border-radius: 15px;
+  width: 50%; /* Adjust width of the text boxes */
+  padding: 8px;
+  font-size: 17px;
+  box-sizing: content-box;
+}
+.pbutton-container {
+  display: flex;
+  justify-content: center; /* Center buttons */
+  margin-top: 20px;
+}
+
+.pbutton1 {
+  margin: 0px 90px; /* Adjust margin between buttons */
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #524E4E;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pbutton2 {
+  margin: 0px 90px; /* Adjust margin between buttons */
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: #D5603B;
+  ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.pcaptain-logo {
+  background-image: url('/src/components/images/cap.png'); /* Specify the path to your image */
+  background-size: contain; /* Adjust the size of the background image */
+  background-repeat: no-repeat; /* Ensure the image is not repeated */
+  width: 50px; /* Adjust the width of the logo */
+  height: 50px; /* Adjust the height of the logo */
+}
+.pdropdown {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 15px;
+  position:relative;  
+  
+}
+
+/* Style for the dropdown options */
+.pdropdown select {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #36363b;
+  
+  
+}
+
+/* Style for the dropdown arrow */
+.pdropdown::after {
+  content: "\25BC"; /* Unicode character for down arrow */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Style for dropdown when it's open */
+.pdropdown.open select {
+  border: 1px solid #ccc;
+  border-radius: 5px 5px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+/* Style for dropdown options when it's open */
+
+
+/* Style for dropdown options */
+.pdropdown select option {
+  padding: 15px;
+  
+  font-size: 18px;
+  color: black;
+}
+

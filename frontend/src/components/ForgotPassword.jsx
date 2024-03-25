@@ -20,6 +20,7 @@ const ForgotPassword = () => {
   };
 
   return (
+    <div className="lbody">
     <div className="forgot-password-container">
       <h2>Forgot Password</h2>
       <div className="email-label">
@@ -33,16 +34,17 @@ const ForgotPassword = () => {
         {emailError && <p className="email-error-message">{emailError}</p>}
       </div>
       <div>
-        <button className="login-button" disabled={!email}>Send</button>
+        <button className="log-button" disabled={!email}>Send</button>
       </div>
       <div>
         <p>Don't have an account? <Link to="/signup" className="sign-up-link">Sign Up</Link></p>
       </div>
       <div>
-        <a href="login" className="link-button-wrapper">
-          <button className="login-button">Login</button>
+        <a href="verification" className="link-button-wrapper">
+          <button className="log-button">Login</button>
         </a>
       </div>
+    </div>
     </div>
   );
 };

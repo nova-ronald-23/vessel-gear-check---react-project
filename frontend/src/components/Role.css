@@ -1,0 +1,193 @@
+
+.rcontainer {
+  display: flex;
+  flex-direction: column;
+  
+  height: 100%; 
+  width: 100%;/* Adjust as needed */
+ 
+}
+
+
+.roption {
+  display: flex; /* Change display to flex */
+  align-items: center; /* Align items vertically */
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background-color: transparent; /* Set background color to transparent by default */
+  border: none; /* Remove any border */
+  outline: none; /* Remove outline */
+  font-size: 16px; /* Adjust font size */
+  color: white; /* Set text color */
+  transition: background-color 0.3s ease;
+  width: 200px; 
+  text-align: center;
+  font-size:medium;
+  font-weight: bold;
+  align-items: center;
+  
+
+}
+
+
+
+
+.rmain-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; 
+  width: 1022px;
+  justify-content: space-around; /* Add space around the box */
+  background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+  padding-top: 10px; 
+  padding-right:35px; 
+  padding-bottom: 10px; 
+  padding-left: 0px;
+  
+}
+
+
+
+.rwhite-box {
+  display: flex;
+  background-color: #ffffff; /* Background color inside the box */
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
+  padding-top: 30px; 
+  padding-right:50px; 
+  padding-bottom: 25px;
+  padding-left: 25px; 
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 100%;
+ 
+ 
+}
+.rbox1 {
+  border-radius: 25px;
+  width: 300px;
+  height: 450px;
+  background-color: #cecece;
+  border: 1px solid #9999;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 50px;
+ padding-bottom: 4px;
+}
+
+.rbox2 {
+  
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 500px;
+  height: 450px;
+  background-color: #9999;
+  border: 1px solid #9999;
+  align-items: center;
+  padding-left:50px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+
+}
+.rinside-box{
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  border-radius: 25px;
+  padding: 15px;
+  margin: 20px;
+  width: 250px;
+  height: 150px;
+  background-color: #9999;
+  border: 1px solid #9999;
+  text-align: center;
+}
+
+.roptions-btns {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  margin-top: 10px; /* Add space between header and text fields */
+}
+
+.rbutton-container {
+  display: flex;
+  justify-content: center; /* Center buttons */
+  margin-top: 20px;
+}
+
+.roption1 {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  background: rgb(86, 69, 344);
+}
+.roption{
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  background-color: #FF5733;
+  margin-left: 50px;
+  
+}
+
+.rselectedButton {
+  background-color: #48f053;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+.rtrack{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 80px ; /* Center horizontally */
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+  height: 30px;
+  background: #283747;
+}
+.rtrack1{
+  padding-top: 5px;
+  padding-bottom: 0%;
+  
+  align-items: center;
+}

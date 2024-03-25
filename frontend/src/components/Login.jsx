@@ -1,82 +1,96 @@
-import React from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom'; // Import Link and useNavigate
 import './Login.css';
 
-class LoginPage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      email: '',
-      password: '',
-      recaptcha: ''
-    };
+const LoginPage = () => {
+  const navigate = useNavigate(); // Initialize the navigate function
 
-    this.handleInputChange = this.handleInputChange.bind(this);
-    this.handleFormSubmit = this.handleFormSubmit.bind(this);
-  }
+  const [state, setState] = useState({
+    email: '',
+    password: '',
+    error: ''
+  });
 
-  handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
 
-    this.setState({
-      [name]: value
+    setState({
+      ...state,
+      [name]: value,
+      error: ''
     });
-  }
+  };
 
-  handleFormSubmit(event) {
+  const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    // Send the form data to the server
-    console.log('Email: ' + this.state.email);
-    console.log('Password: ' + this.state.password);
-    console.log('Recaptcha: ' + this.state.recaptcha);
-  }
+    const { email, password } = state;
 
-  render() {
-    return (
+    console.log('Email:', email);
+    console.log('Password:', password);
+    console.log('Request Payload:', { email, password });
 
-      <div className="login-page">
-        <form className="login-form" onSubmit={this.handleFormSubmit}>
-          <h1 className="login-heading">Login</h1>
-          <br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder='Mail'
-            value={this.state.email}
-            onChange={this.handleInputChange}
-            required
-            className="login-input"
-          />
-          <br />
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder='Password'
-            value={this.state.password}
-            onChange={this.handleInputChange}
-            required
-            className="login-input"
-          />
-          <br />
-          <ReCAPTCHA
-            sitekey="6Lccz4EpAAAAAIQ-76b7IFK9NRW6ZWpN1joylDp0"
-            onChange={(value) => this.setState({ recaptcha: value })}
-            name="recaptcha"
-            className="login-recaptcha"
-          />
-          <br />
-          <input type="submit" value="Login" className="login-button" />
-          <p className="login-link">Don't have an account? <a href="/signup">Sign up</a></p>
-          <p className="login-link"><a href="/forgotpassword">Forgot password?</a></p>
-        </form>
-      </div>
-    );
-  }
-}
+
+    // Commented out API call
+    // try {
+    //   const response = await fetch('https://localhost:7035/api/User_info/AuthenticateUser', {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'application/json'
+    //     },
+    //     body: JSON.stringify({ Email: email, Password: password })
+    //   });
+    //
+    //   if (!response.ok) {
+    //     throw new Error('Failed to authenticate user');
+    //   }
+    //
+    //   // Redirect to dashboard upon successful login
+    //   // this.props.history.push('/dashboard');
+    // } catch (error) {
+    //   console.error('Login failed:', error);
+    //   this.setState({ error: 'Failed to authenticate user' });
+    // }
+
+    // Redirect to dashboard without API call
+    //navigate('/dashboard');
+    navigate('/dashboard');
+  };
+
+  return (
+    <div className="lbody">
+    <div className="login-page">
+      <form className="login-form" onSubmit={handleFormSubmit}>
+        <h1 className="login-heading">Login</h1>
+        {state.error && <p className="error-message">{state.error}</p>}
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          value={state.email}
+          onChange={handleInputChange}
+          required
+          className="login-input"
+        />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          autoComplete="current-password"
+          value={state.password}
+          onChange={handleInputChange}
+          required
+          className="login-input"
+        />
+        <input type="submit" value="Login" className="log-button" />
+        <p className="login-link">Don't have an account? <Link to="/signup">Sign up</Link></p>
+        <p className="login-link"><a href="/forgotpassword">Forgot password?</a></p>
+      </form>
+    </div>
+    </div>
+  );
+};
 
 export default LoginPage;
