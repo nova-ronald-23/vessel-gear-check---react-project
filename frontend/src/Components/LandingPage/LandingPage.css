@@ -3,7 +3,7 @@ body {
     background-color: #C1C1C1;
 }
 
-.container {
+.main-cont {
     margin-top: 9%;
     margin-left: 27%;
 
@@ -124,12 +124,12 @@ body {
     justify-content: center;
 }
 
-.weather-image2 {
+.locat_icon {
     margin-top: 0.4vh;
     justify-content: center;
 }
 
-.weather-image3 {
+.shipicon {
     margin-top: 3vh;
     justify-content: center;
 

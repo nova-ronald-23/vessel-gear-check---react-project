@@ -89,7 +89,7 @@ const LandingPage = () => {
             <div className="ellipse1"></div>
             <div className="ellipse2"></div>
 
-            <div className="container">
+            <div className="main-cont">
                 <div className='container1'>
                     <div className="cont1">
                         <div className="weather-image1">
@@ -120,7 +120,7 @@ const LandingPage = () => {
                 {/* Second Container */}
                 <div className='container2'>
                     <div className="cont2">
-                        <div className="weather-image2">
+                        <div className="locat_icon">
                             <img src={locator_icon} alt="" />
                         </div>
                         <div className="weather-location2">{location}, {country}</div>
@@ -131,7 +131,7 @@ const LandingPage = () => {
 
                 {/* Third Container */}
                 <div className='container3'>
-                    <div className="weather-image3">
+                    <div className="shipicon">
                         <img src={ship_icon} alt="" />
                     </div>
                     <div className="date-info"><p>{dateInfo}</p><break></break><p className="time">{time}</p></div> {/* Display date and time */}
