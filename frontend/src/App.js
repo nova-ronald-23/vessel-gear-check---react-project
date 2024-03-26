@@ -5,7 +5,7 @@ import './App.css'; // Assuming you have a CSS file for styling
 import RolesScreen from './components/Roles';
 //import { Personal } from './components/Personal';
 
-//import RolesScreen from './components/Roles';
+
 //import { Personal } from './components/Personal';
 
 //import Sidebar from './components/Sidebar';
