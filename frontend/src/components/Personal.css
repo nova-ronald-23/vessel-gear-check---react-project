@@ -28,11 +28,11 @@
     padding-right:40px; /* Example of right padding */
     padding-bottom: 5px; /* Example of bottom padding */
     padding-left: 20px; /* Example of left padding *//* Padding inside the card */
-    width: 700px;
+    width: 950px;
     height: 490px;
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 200px;
     align-items: center;
     justify-content: center;
     

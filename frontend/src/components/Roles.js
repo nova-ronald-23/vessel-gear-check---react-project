@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Role.css';
+import Sidebar from './Sidebar'
 
 const RoleScreen = () => {
   // State for managing selected options and select button status
@@ -26,6 +27,7 @@ const RoleScreen = () => {
 
   return (
     <div className="rolcontainer">
+    <Sidebar/>
       <div className="rolmain-content">
         <div className="rolwhite-box">
           <div className='rolbox1'>
