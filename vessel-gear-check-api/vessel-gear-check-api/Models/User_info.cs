@@ -15,9 +15,13 @@ namespace vessel_gear_check_api.Models
         public string Password { get; set; }
 
         [Required]
-        public string Roll { get; set; }
+        public string Role { get; set; }
 
         [Required]
+<<<<<<< Updated upstream
         public string Address { get; set; }
+=======
+        public string Email { get; set; }  
+>>>>>>> Stashed changes
     }
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "UwzAJORM5n+BdlW/00KlKm3jBD56KXHlCjgkg9eLWJc=",
+  "Source": "vessel-gear-check-api",
+  "BasePath": "_content/vessel-gear-check-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

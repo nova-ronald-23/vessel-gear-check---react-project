@@ -276,3 +276,6 @@ E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-ge
 E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\obj\Debug\net8.0\vessel-gear-check-api.pdb
 E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\obj\Debug\net8.0\vessel-gear-check-api.genruntimeconfig.cache
 E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\obj\Debug\net8.0\ref\vessel-gear-check-api.dll
+E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\bin\Debug\net8.0\MailKit.dll
+E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\bin\Debug\net8.0\MimeKit.dll
+E:\study mat\pg\intership\New folder\vessel-gear-check---react-project\vessel-gear-check-api\vessel-gear-check-api\bin\Debug\net8.0\BouncyCastle.Crypto.dll

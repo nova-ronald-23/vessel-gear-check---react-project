@@ -1,0 +1,130 @@
+.cmain-content{
+    
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1; 
+        width: fill;
+        height: cover;
+        justify-content: space-around;
+        padding-right:35px; 
+        padding-left: 0px; 
+        background: linear-gradient(90.37deg, #A59FFF 36.1%, #6C63FF 62.64%, #2C1FFD 100%);
+          
+}
+.boxhead{
+  width: 85%;
+  height: 11.5%;
+  background-color: white;
+  padding-top: 1.7%;
+  margin-top: 2.5%;
+  position: relative;
+  margin-left: 8%;
+  border-radius: 15px;
+}
+
+.box{
+    
+        display: flex;
+        
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+        background: #FFFFFF;
+        border-top-right-radius: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-decoration-color: #524E4E;
+        font-size: medium;
+        font-weight: bold;
+        height: 100%;
+        width: cover;
+      
+}
+.selection form{
+  margin-right: 2rem;
+  margin-top: 11%;
+  margin-left: 5%;
+  position: absolute;
+}
+.selection label{
+  position: absolute;
+  color: #524E4E;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+.selection input{
+  margin-right: 2rem;
+} #rol5{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 1050px;
+  height: 78px;
+  background-color: white;
+  border-top-right-radius: 30px;
+  margin-bottom: 10%;
+  text-align: center;
+  margin-top: -2.7%;
+}
+
+.boxicon{
+  width: 6%;
+  height:18%;
+  background-color: white;
+  margin-left: 70%;
+  margin-top: 6.5%;
+  border-radius: 15px;
+}
+
+.selection{
+        width: 290px;
+        height: 270px;
+        background-color: #E1E1E1;
+        position: absolute;
+        margin-left: 5%;
+        border-radius: 25px;
+      }
+      .selection button{
+        margin-top: 48.5%;
+        margin-left: 7%;
+        border-radius: 25px;
+        border: none;
+        outline: none;
+        background-color: #6C63FF;
+        color: white;
+      }
+      .selection button:hover{
+        background-color: #4539FF;
+      } 
+      .box img{
+        margin-left: 49%;
+        margin-top: 10%;
+      }
+      #rol5{
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+        background-color: white;
+        border-top-right-radius: 30px;
+        text-align: center;
+        height: 70px;
+        margin-top: 10px;
+        width:80%;
+
+      }
+      #rol5 h4{
+        color: #524E4E;
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 1.4%;
+      }
+      .wbox{
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+        background: #FFFFFF;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-decoration-color: #524E4E;
+        font-size: medium;
+        font-weight: bold;
+        height: cover;
+        width: cover;
+        }

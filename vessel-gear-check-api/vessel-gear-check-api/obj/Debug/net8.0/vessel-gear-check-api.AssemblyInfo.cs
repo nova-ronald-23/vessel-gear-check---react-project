@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("vessel-gear-check-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+482d31702f09cdde63a9b1058c9db92f8ca5afb4")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adb560dd6b43bccf55c632ac713e5fa859626220")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("vessel-gear-check-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("vessel-gear-check-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
